@@ -1,0 +1,22 @@
+﻿<Window x:Class="myFirstWPFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myFirstWPFApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="971">
+    <Canvas Initialized="Canvas_Initialized">
+        <Button Name="btnStart" Content="Начать" FontSize="36" Canvas.Left="545" Canvas.Top="308" Height="53" Width="150" Click="btnStart_Click" AllowDrop="True"/>
+        <Image Name ="Im1" Height="80" Canvas.Left="350" Canvas.Top="45" Width="80" Source="C:\Users\rmatv\source\repos\myFirstWPFApp\kitty1.jpg" PreviewMouseDown="Im_PreviewMouseDown"/>
+        <Image Name="Im2" Height="80" Canvas.Left="435" Canvas.Top="45" Width="80" Source="C:\Users\rmatv\source\repos\myFirstWPFApp\kitty2.jpg" PreviewMouseDown="Im_PreviewMouseDown"/>
+        <Image Name="Im3" Height="80" Canvas.Left="520" Canvas.Top="45" Width="80" Source="C:\Users\rmatv\source\repos\myFirstWPFApp\kitty3.jpg" PreviewMouseDown="Im_PreviewMouseDown"/>
+        <Image Name="Im4" Height="80" Canvas.Left="350" Canvas.Top="130" Width="80" Source="C:\Users\rmatv\source\repos\myFirstWPFApp\kitty4.jpg" PreviewMouseDown="Im_PreviewMouseDown"/>
+        <Image Name="Im5" Height="80" Canvas.Left="435" Canvas.Top="130" Width="80" Source="C:\Users\rmatv\source\repos\myFirstWPFApp\kitty5.jpg" PreviewMouseDown="Im_PreviewMouseDown"/>
+        <Image Name="Im6" Height="80" Canvas.Left="520" Canvas.Top="130" Width="80" Source="C:\Users\rmatv\source\repos\myFirstWPFApp\kitty6.jpg" PreviewMouseDown="Im_PreviewMouseDown"/>
+        <Image Name="Im7" Height="80" Canvas.Left="350" Canvas.Top="215" Width="80" Source="C:\Users\rmatv\source\repos\myFirstWPFApp\kitty7.jpg"  PreviewMouseDown="Im_PreviewMouseDown"/>
+        <Image Name="Im8" Height="80" Canvas.Left="435" Canvas.Top="215" Width="80" Source="C:\Users\rmatv\source\repos\myFirstWPFApp\kitty8.jpg" PreviewMouseDown="Im_PreviewMouseDown"/>
+        <Image Name="Im9" Height="80" Canvas.Left="520" Canvas.Top="215" Width="80" Source="C:\Users\rmatv\source\repos\myFirstWPFApp\gray.jpg" PreviewMouseDown="Im_PreviewMouseDown"/>
+    </Canvas>
+
+</Window>
