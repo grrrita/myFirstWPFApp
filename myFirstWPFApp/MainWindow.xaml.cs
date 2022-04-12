@@ -26,7 +26,7 @@ namespace myFirstWPFApp
             w = Convert.ToInt32(Im1.Width);
 
         }
-
+        //нажатие на одну из картинок, первая картинка запоминается, вторая меняется изображениям с первой, если одна из них "серая" и они "соседние"
         private void Im_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
             if (first == null||first==(Image)sender)
@@ -62,7 +62,7 @@ namespace myFirstWPFApp
                     first = null;
             }
         }
-
+        //нажатие на кнопку старта перемешивает картинки
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
             int[] x = new int[8];
